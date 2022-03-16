@@ -1,2 +1,2 @@
 # JavaScript_study
-kuang_lesson
+JavaScript学习代码
