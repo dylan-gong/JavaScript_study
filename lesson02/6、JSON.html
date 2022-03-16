@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    // let Student = {
+    //     name: "qinjiang",
+    //     age: 3,
+    //     run: function () {
+    //         console.log(this.name + " run....");
+    //     }
+    // };
+    //
+    //
+    // let xiaoming = {
+    //     name: "xiaoming"
+    // };
+    //
+    // //原型对象
+    // xiaoming.__proto__ = Student;
+    //
+    //
+    // let Bird = {
+    //     fly: function () {
+    //         console.log(this.name + " fly....");
+    //     }
+    // };
+    //
+    // // 小明的原型 是 Student
+    // xiaoming.__proto__ = Bird;
+
+    let user ={
+        name:"qinjiang",
+        age:'3',
+        sex:'female'
+    }
+    console.log(user)
+
+    //对象转化为JSON字符串   {"name":"qinjiang","age":"3","sex":"female"}
+    let jsonuser = JSON.stringify(user)
+    console.log(jsonuser)
+
+
+    //json 字符串转换为对象,参数为JSON字符串  Object
+    let obj = JSON.parse('{"name":"qinjiang","age":"3","sex":"female"}')
+    console.log(obj)
+</script>
+
+</body>
+</html>
